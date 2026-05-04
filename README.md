@@ -1,4 +1,4 @@
-# sql-data-warehouse-project
+## sql-data-warehouse-project
 Modern SQL Server data warehouse architecture with production‑grade ETL pipelines, curated dimensional models, and analytical datasets powering dashboards, KPIs, and data‑driven decision-making.
 
 #### SQL Data Warehouse Project
@@ -10,10 +10,9 @@ Bronze - raw data, no changes, full auditability
 Silver - cleansed, standardized, and enriched data
 Gold - business-ready views with dimensional models and applied business logic
 
-## Source data arrives as flat CSV files from a CRM and an ERP system. By the time it reaches the Gold layer it has been validated, normalized, joined across domains, and shaped into star schema, flat table, and aggregated table formats ready for downstream consumption.
-Requirements
+Source data arrives as flat CSV files from a CRM and an ERP system. By the time it reaches the Gold layer it has been validated, normalized, joined across domains, and shaped into star schema, flat table, and aggregated table formats ready for downstream consumption.
+# Requirements
 Technical requirements to run this project locally:
-
 SQL Server 2019+ or PostgreSQL 13+
 A SQL client (SSMS, DBeaver, or Azure Data Studio)
 Git
